@@ -5,11 +5,18 @@
 }
 
 .derecha{
-    background: url(https://media.istockphoto.com/vectors/statistics-data-and-analytics-software-laptop-application-vector-id1175691444?s=612x612);
+    background: url(/img/undraw_predictive_analytics_kf9n.png);
     background-size: cover;
     background-position: center;
     width: 50% ;
     height:100vh;
+}
+.fichas{
+  background: url(/img/red-neuronal.png);
+  background-size: cover;
+  background-position: center;
+  width: 100% ;
+  height:70vh;
 }
 
 #pantalla-dividida{
@@ -89,12 +96,13 @@ h1{
 }
 
 .about-us{
-    
+    background-color: white;
+    box-shadow: 5px 5px 100px 5px  #D97C2B;
     height: auto;
     float:left;
     /* Arriba | Derecha | Abajo | Izquierda */
-    margin: 25px 3em 15px;
-    border: 2px solid #A6540D;
+    margin: 80px 3em 15px;
+    border: 2px solid #D97C2B;
     border-radius: 15px;
     padding: 10px 20px 20px;
 
@@ -255,7 +263,7 @@ footer .bottom-details .bottom_text{
   height: 150px;
 }
 .section-3{
-  border: 2px solid #A6540D;
+  border: 2px solid #D97C2B;
   border-radius: 15px;
   width: 99%;
   /* Arriba | Derecha | Abajo | Izquierda */
@@ -267,7 +275,7 @@ footer .bottom-details .bottom_text{
   
 }
 .who{
-  background-color: #A6540D; 
+  background-color: #D97C2B; 
   width: 100%;
   height: 300px;
   padding: 15px 10% 15px 10%;
@@ -305,7 +313,7 @@ footer .bottom-details .bottom_text{
   position: absolute;
   height: 40%;
   width: 100%;
-  background: #A6540D;
+  background: #D97C2B;
   border-radius: 20px 20px 0 0;
 }
 
@@ -323,7 +331,7 @@ section .card .image{
   width: 140px;
   border-radius: 50%;
   padding: 3px;
-  background: #A6540D;
+  background: #D97C2B;
 }
 
 section .card .image img{
@@ -379,12 +387,12 @@ section .card .image img{
 
 .swiper-button-next, .swiper-button-prev{
   opacity: 0.7;
-  color: #A6540D;
+  color: #D97C2B;
   transition: all 0.3s ease;
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
   opacity: 1;
-  color: #A6540D;
+  color: #D97C2B;
 }
 
 #subir__arriba{
