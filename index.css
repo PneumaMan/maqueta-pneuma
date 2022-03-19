@@ -265,9 +265,10 @@ footer .bottom-details .bottom_text{
 .section-3{
   border: 2px solid #D97C2B;
   border-radius: 15px;
-  width: 99%;
-  /* Arriba | Derecha | Abajo | Izquierda */
   padding: 15px 10% 15px 10%;
+  /* width: 99%;
+  /* Arriba | Derecha | Abajo | Izquierda 
+   */
 }
 
 #como-hacemos{
