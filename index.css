@@ -1,3 +1,7 @@
+#pantalla-dividida{
+    display: flex;
+}
+
 .izquierda{
     background: #F28F38 ;
     width: 50% ;
@@ -11,6 +15,7 @@
     width: 50% ;
     height:100vh;
 }
+
 .fichas{
   background: url(/img/red-neuronal.png);
   background-size: cover;
@@ -19,7 +24,8 @@
   height:70vh;
 }
 
-#pantalla-dividida{
+
+#quienes-somos{
     display: flex;
 }
 
@@ -39,6 +45,17 @@ h1{
 .header .navbar {
     background-color: transparent !important;
     color: #262626 !important;
+  }
+
+  #productos{
+    background: url(/img/red-neuronal.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .productos{
+    margin: auto;
+    padding: 10px 20px 20px;
   }
 
 @media screen and (max-width: 900px) {
@@ -61,25 +78,73 @@ h1{
     #pantalla-dividida{
         position: relative;
     }
-
-
     .izquierda{
         background: transparent !important ;
         width: 100% ;
         height:100vh;
         position: absolute;
         z-index: 3;
-    }
-    
+    }   
     .derecha{
-        background: url(https://media.istockphoto.com/vectors/statistics-data-and-analytics-software-laptop-application-vector-id1175691444?s=612x612);
+        background: url(/img/undraw_predictive_analytics_kf9n.png);
         background-size: cover;
         background-position: center;
         width: 100% ;
-        height:100vh;
+        height:70vh;
         position: absolute;
         z-index: 1;
     }
+    .titulo1{
+      font-size: 30px;
+      color: #D97C2B;
+      text-align: center;
+    }
+    .parrafo{
+      font-size: 15px;
+      text-align: center;
+      margin:auto;
+      color: #e4934c;
+  }
+
+  #quienes-somos{
+    position: relative;
+}
+  .fichas{
+    width: 100% ;
+    height:auto;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 30rem 1em 8rem auto;
+  }
+
+  .about-us{
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px  #f8c89e;
+    height: auto;
+    text-align: center;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 30px 3em 5px;
+    border: 2px solid #D97C2B;
+    border-radius: 15px;
+    padding: 10px 20px 20px;
+
+}
+.pYs{
+  height: 150px;  
+  display:block;
+  margin:auto;
+}
+
+
+#como-hacemos{
+  position: relative;
+}
+.who{
+  background-color: #D97C2B; 
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -260,15 +325,13 @@ footer .bottom-details .bottom_text{
 
 /* que hacemos */
 .pYs{
-  height: 150px;
+  height: 150px;  
 }
 .section-3{
   border: 2px solid #D97C2B;
   border-radius: 15px;
   padding: 15px 10% 15px 10%;
-  /* width: 99%;
-  /* Arriba | Derecha | Abajo | Izquierda 
-   */
+
 }
 
 #como-hacemos{
@@ -278,7 +341,8 @@ footer .bottom-details .bottom_text{
 .who{
   background-color: #D97C2B; 
   width: 100%;
-  height: 300px;
+  height: auto;
+  float: left;
   padding: 15px 10% 15px 10%;
 }
 
