@@ -84,6 +84,11 @@ h1{
 }
 
 @media screen and (max-width: 700px) {
+.bt-modals{
+  margin-left: 3rem !important;
+
+}
+
     #pantalla-dividida{
         position: relative;
     }
@@ -457,6 +462,8 @@ section .card .image img{
   color: #D97C2B;
 }
  */
+
+
 
 #subir__arriba{
   width: 50px;
