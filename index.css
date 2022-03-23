@@ -56,11 +56,11 @@ h1{
     color: #262626 !important;
   }
 
-  #productos{
+/*   #productos{
     background: url(/img/red-neuronal.png);
     background-size: cover;
     background-position: center;
-  }
+  } */
 
   .productos{
     margin: auto;
