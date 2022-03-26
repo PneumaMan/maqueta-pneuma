@@ -321,7 +321,8 @@
                         desarrollado una plataforma de inteligencia de negocios (BI por sus siglas en inglés) en la
                         que cualquier empresa puede enlazar sus datos para poder realizar un seguimiento más
                         focalizado y dar un paso adelante en la gestión estratégica de su operación.
-                        <a href="#" onclick="vermas('mas');" id="mas">... [leer más]</a>
+                        <a onclick="vermas('mas');" id="mas">... <strong style="color:#D97C2B"> [leer más]</strong>
+                        </strong></a>
                     </p>
                     <p id="desplegar" style="display:none;">
                         Actualmente la plataforma cuenta con una sección de Analítica Descriptiva que permite al
@@ -329,7 +330,8 @@
                         con su área comercial en indicadores de Ventas, Oportunidades (que representa los leads y el
                         ciclo de venta hasta cerrarse positiva o negativamente) y Actividades (que describe las
                         actividades que debe realizar un sales representative como contactos y presentaciones).
-                        <a href="#" onclick="vermas('menos');" id="menos">... [leer menos]</a>
+                        <a  onclick="vermas('menos');" id="menos">...  <strong style="color:#D97C2B"> [leer menos]
+                        </strong></a>
 
                     </p>
 
@@ -589,10 +591,12 @@
         if(id=="mas"){
         document.getElementById("desplegar").style.display="block";   
         document.getElementById("mas").style.display="none"; 
+        return false;
         }
         else{
         document.getElementById("desplegar").style.display="none";
         document.getElementById("mas").style.display="inline";
+        return false;
         }
         }
         </script>

@@ -138,6 +138,7 @@ h1{
     text-align: center;
     /* Arriba | Derecha | Abajo | Izquierda */
     margin: 30px 3em 5px;
+    margin-bottom: 15%;
     border: 2px solid #D97C2B;
     border-radius: 15px;
     padding: 10px 20px 20px;
