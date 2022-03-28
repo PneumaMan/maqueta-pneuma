@@ -26,9 +26,9 @@
 }
 
 .fichas{
-  background: url(/img/red-neuronal.png);
+  /* background: url(/img/red-neuronal.png);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   width: 100% ;
   height:70vh;
 }
