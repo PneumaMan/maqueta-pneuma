@@ -193,7 +193,7 @@ footer .content{
 footer .content .top{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 50px;
 }
  .content  .logo-details{
@@ -480,3 +480,11 @@ section .card .image img{
   z-index: 1;
 }
 
+.nombre{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profesion{
+color: #D97C2B;
+}
