@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="html/estyle.css">
     <title>Pneuma consulting</title>
 </head>
+<style>
+    
+</style>
 
 
 <!-- cabecera de la pagina web -->
@@ -61,24 +64,49 @@
     <!-- seccion 1 inicio-introduccion -->
     <section id="pantalla-dividida">
         <div class="izquierda">
-            <h1 class=" my-5 text-uppercase titulo1">
-                Inteligencia como soporte para cada proceso de negocio
-            </h1>
-            <p class="parrafo text-white"> Los datos tienen un valor más importante que el de informar...
+            <p class="parrafo  mt-5"> Los datos tienen un valor más importante que el de informar...
                 Tienen la responsabilidad de guiar y conducir al éxito cada proceso de negocio.
             </p>
-            <p class="parrafo text-white">¡Y nosotros te acompañamos para lograrlo!</p>
-            <div class="max-auto">
+            <p class="parrafo mt-3">¡Y nosotros te acompañamos para lograrlo!</p>
+            <div class="mx-auto mt-5">
                 <a href="#footer" class="btn my-3" style="background-color: white !important;color: #D97C2B;margin-left:10rem !important; margin-right:auto !important">Déjanos mostrarte cómo</a>
             </div>
-            
-            
         </div>
         <div class="derecha"></div>
     </section>
     <!-- seccion 2 quienes somos-->
 
-    <section id="quienes-somos">
+    <section>
+        <div class="somos">
+            <div class="row">
+            <div class="somos-1 col-md-6 col-11">
+                <img src="img/objetivo.png" alt="" style="width: 100px; height: 100px;">
+                <label for="" class="h4"> Misión</label>
+                <hr style="background-color: #D97C2B; height: 2px;">
+                <p class="my-5"> Ser el aliento racional que informa y ordena el universo de datos que, con inteligencia y actitud
+                    crítica, conducen a la toma de decisiones acertadas.
+                </p>
+            </div>
+            <div class="somos-2  col-md-6 col-11">
+                <img src="img/espiar.png" alt="" style="width: 100px; height: 100px;">
+                <label for="" class="h4"> Vision</label>
+                <hr style="background-color:white; height: 2px;">
+
+                <p class="mt-4"> Consolidarnos como el aliado estratégico por excelencia para las Pequeñas y medianas empresas en Colombia en la gestión inteligente y eficiente de sus procesos de negocio. </p>
+                <p> Para el 2025 buscaremos estar posicionados internacionalmente y generando un 30% de nuestros servicios a manera de exportación.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="somos-3 mb-5 mx-auto">
+                <img src="img/valores-organizacionales.png" alt="">
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- <section id="quienes-somos">
         <div class="fichas row">
             <div class="about-us col-md-3 col-10">
                 <h4 class="mx-auto profesion">Misión</h4>
@@ -97,7 +125,7 @@
                     style="width: 200px; height: 200px; margin: auto; text-align: center;">
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- seccion 3 que hacemos-->
     <section id="que-hacemos">
         <div class="container">
@@ -671,9 +699,8 @@
                 <div class="logo-details">
                     <img src="https://i.ibb.co/HpYWxkr/logo-pneuma.png" alt="" width="50" height="50">
 
-                    <span class="logo_name">Pneuma Consulting</span>
+                    <span class="logo_name" >Pneuma Consulting</span>
                 </div>
-                <hr style="z-index: 2; color:white">
                 <div class="media-icons">
                     <a
                         href="https://www.facebook.com/profile.php?id=100041349793805&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_invite_to_follow=false&show_community_transition=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false"><i
@@ -682,16 +709,19 @@
                     <a href="https://www.linkedin.com/in/pneuma-consulting-01455b193/"><i
                             class="fab fa-linkedin-in"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=+573176710099"><i class="fab fa-whatsapp"></i></a>
-                    <a href="mailto:contacto@pneumaconsulting.com?Subject=Informacion%20por%20favor"><i
-                            class="bi bi-envelope"></i></a>
+                </div> 
+            </div>
 
+            <div class=" conctac" style="float: right;padding-right: 5rem; height: auto;">
+                <div class="media-icons">
+                    <a href="mailto:contacto@pneumaconsulting.com?Subject=Informacion%20por%20favor"><i
+                        class="bi bi-envelope"></i></a>
+                    <span class="text-white my-2">contacto@pneumaconsulting.co</span>
+                    
                 </div>
             </div>
-            <div class=" mx-auto">
-
-
-
-            </div>
+            <br>
+            <br>
         </div>
         <div class="bottom-details">
             <div class="bottom_text">
@@ -770,9 +800,9 @@
             }
         })
 
-        $(document).ready(function () {
+        /* $(document).ready(function () {
             $('.empleados').load('/html/empleados.html');
-        });
+        }); */
         /*
                 $(document).ready(function () {
                     $('.footer').load('/html/footer.html');
