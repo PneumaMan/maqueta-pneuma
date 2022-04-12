@@ -7,28 +7,36 @@
   font-family: "Poppins" , sans-serif;
 }
 
+.navbar{
+  background-color: #262626 !important;
+  color: white !important;
+}
+
 #pantalla-dividida{
     display: flex;
 }
 
 .izquierda{
-    background: #F28F38 ;
+    background: white ;
     width: 50% ;
     height:100vh;
     padding: 80px 50px 50px;
 }
 .div-boton{
-  padding: 80px 50px 50px;
+  padding: 30px 50px 50px;
 }
 
 .boton-pantallaD{
-  background-color: white !important;
-  color: #D97C2B !important;
-  margin-left:1rem !important; 
-  margin-right:auto !important
+  background-color: #D97C2B !important;
+  color: white !important;
+  margin-left:7rem !important; 
+  margin-right:auto !important;
+  text-align: center;
+  justify-content: center;
 }
 
 .derecha{
+  background-color: #a9a3a3;
     background: url(https://i.ibb.co/wJtwNSF/undraw-predictive-analytics-kf9n.png);
     background-size: cover;
     background-position: center;
@@ -59,10 +67,14 @@ h1{
     line-height: 30px;
     margin:auto
 }
-.header .navbar {
-    background-color: transparent !important;
-    color: #262626 !important;
-  }
+.parrafo-1{
+    font-size: 30px;
+    color: #e4934c;;
+    line-height: 30px;
+    text-align: center;
+    margin:auto
+}
+
 
 /*   #productos{
     background: url(/img/red-neuronal.png);
@@ -89,6 +101,13 @@ h1{
     width: 70% ;
 
 }
+.parrafo-1{
+  font-size: 20px;
+  color: #e4934c;;
+  line-height: 20px;
+  text-align: center;
+  margin:auto
+}
 }
 
 
@@ -96,6 +115,13 @@ h1{
 .bt-modals{
   margin-left: 3rem !important;
 
+}
+.parrafo-1{
+  font-size: 18px;
+  color: #e4934c;;
+  line-height: 30px;
+  text-align: center;
+  margin:auto
 }
 
     #pantalla-dividida{
@@ -193,6 +219,15 @@ h1{
   line-height: 20px;
  
 }
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -30px !important;
+  margin-left: -15px;
+}
+
 }
 .conctac{
   float:left;
