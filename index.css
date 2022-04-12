@@ -17,6 +17,16 @@
     height:100vh;
     padding: 80px 50px 50px;
 }
+.div-boton{
+  padding: 80px 50px 50px;
+}
+
+.boton-pantallaD{
+  background-color: white !important;
+  color: #D97C2B !important;
+  margin-left:1rem !important; 
+  margin-right:auto !important
+}
 
 .derecha{
     background: url(https://i.ibb.co/wJtwNSF/undraw-predictive-analytics-kf9n.png);
@@ -94,7 +104,7 @@ h1{
     .izquierda{
         background: transparent !important ;
         width: 100% ;
-        height:100vh;
+        height:auto;
         position: absolute;
         z-index: 3;
     }   
@@ -146,6 +156,64 @@ h1{
   margin: auto;
   text-align: center;
 }
+.somos{
+  margin-top: 450px;
+  margin-bottom: 35rem;
+}
+.img-somos-3{
+  width: 300px;
+  height: 300px;
+}
+.conctac{
+  display:block;
+  margin:auto;
+  height: auto;
+  font-size: 12px;
+}
+.boton-pantallaD{
+  background-color: #D97C2B !important;
+  color: white !important;
+  font-size: 10px !important;
+  margin-left:auto !important; 
+  margin-right:auto !important;
+
+  
+}
+.bi-envelope{
+  color: white;
+  font-size: 10px;
+  
+}
+.cnt-icon {
+  background-color: #d32525 !important;
+  width: 20px;
+  height: 20px;
+  border-radius:50% ;
+  text-align: center;
+  line-height: 20px;
+ 
+}
+}
+.conctac{
+  float:left;
+  font-size: 18px;
+  
+}
+
+.cnt-icon {
+  background-color: #d32525 !important;
+  width: 40px;
+  height: 40px;
+  border-radius:50% ;
+  text-align: center;
+  line-height: 40px;
+ 
+}
+
+.bi-envelope{
+  color: white;
+  font-size: 20px;
+  
 }
 
 @media screen and (max-width: 450px) {
@@ -524,4 +592,8 @@ color: #D97C2B;
   margin-bottom: 15rem !important;
   text-align : center;
   
+}
+
+.cnt{
+  color: white;
 }
