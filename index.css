@@ -221,6 +221,11 @@ h1{
   margin-left: -15px;
 }
 
+.equipo{
+  color:#D97C2B;
+  padding: 0 !important;
+}
+
 }
 .conctac{
   float:left;
@@ -637,4 +642,10 @@ color: #D97C2B;
 
 .close{
   color: white !important;
+}
+
+.equipo{
+  color:#D97C2B;
+  text-align: left!important; 
+  padding-left:4rem;
 }
