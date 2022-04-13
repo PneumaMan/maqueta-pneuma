@@ -192,9 +192,10 @@ h1{
 }
 .conctac{
   display:block;
-  margin:auto;
+  margin:auto !important;
   height: auto;
   font-size: 12px;
+  
 }
 .boton-pantallaD{
   background-color: #D97C2B !important;
@@ -210,15 +211,7 @@ h1{
   font-size: 10px;
   
 }
-.cnt-icon {
-  background-color: #d32525 !important;
-  width: 20px;
-  height: 20px;
-  border-radius:50% ;
-  text-align: center;
-  line-height: 20px;
- 
-}
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -232,6 +225,8 @@ h1{
 .conctac{
   float:left;
   font-size: 18px;
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 2px 1em 0 48rem;
   
 }
 
@@ -631,4 +626,5 @@ color: #D97C2B;
 
 .cnt{
   color: white;
+  font-size: 16px;
 }
