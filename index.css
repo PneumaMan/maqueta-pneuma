@@ -29,7 +29,7 @@
 .boton-pantallaD{
   background-color: #D97C2B !important;
   color: white !important;
-  margin-left:7rem !important; 
+  margin-left:6rem !important; 
   margin-right:auto !important;
   text-align: center;
   justify-content: center;
@@ -580,8 +580,8 @@ section .card .image img{
 }
 
 .nombre{
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .profesion{
@@ -627,4 +627,14 @@ color: #D97C2B;
 .cnt{
   color: white;
   font-size: 16px;
+}
+
+
+.modal-header{
+  color: white;
+  background: #F28F38 ;
+}
+
+.close{
+  color: white !important;
 }
