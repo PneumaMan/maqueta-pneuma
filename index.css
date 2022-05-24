@@ -78,6 +78,10 @@ h1{
   padding: 10px 20px 20px;
 }
 
+.texto-bi{
+  text-align: justify!important
+}
+
 @media (max-width: 900px) {
 h1{
     margin-top: 20%;
@@ -104,9 +108,16 @@ h1{
 
 @media(max-width: 700px) {
 .bt-modals{
-  margin-left: 3rem !important;
-
+  display:flex;
+    text-align: center;
+    justify-content: center;
 }
+
+.texto-bi{
+  text-align: justify!important;
+  margin: 10px;
+}
+
 .parrafo-1{
   font-size: 18px;
   color: #e4934c;;
@@ -248,7 +259,7 @@ h1{
   
 }
 
-@media screen and (max-width: 450px) {
+@media(max-width: 450px) {
  h1 {
     font-size: 60px;
 }
