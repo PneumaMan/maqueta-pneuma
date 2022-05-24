@@ -82,6 +82,13 @@ h1{
   text-align: justify!important
 }
 
+.bt-modals{
+  background-color: #D97C2B !important;
+  color: white;
+  margin: 1rem !important;
+
+}
+
 @media (max-width: 900px) {
 h1{
     margin-top: 20%;
@@ -107,11 +114,6 @@ h1{
 
 
 @media(max-width: 700px) {
-.bt-modals{
-  display:flex;
-    text-align: center;
-    justify-content: center;
-}
 
 .texto-bi{
   text-align: justify!important;
@@ -143,6 +145,11 @@ h1{
     height: 60vh;
     order: 1;
     display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-3-p{
     text-align: center;
     justify-content: center;
 }
@@ -263,6 +270,9 @@ h1{
  h1 {
     font-size: 60px;
 }
+.izquierda{
+  padding: 7px 40px 15px 3px;
+}
 }
 
 @media(max-width: 340px) {
@@ -276,6 +286,9 @@ h1{
   .derecha{
     background:none;
 }
+.izquierda{
+  padding: 7px 50px 50px;
+} 
 
 }
 
