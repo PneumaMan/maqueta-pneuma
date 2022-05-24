@@ -89,6 +89,10 @@ h1{
 
 }
 
+.somos-3 .img-somos-3 {
+  object-fit: cover;
+}
+
 @media (max-width: 900px) {
 h1{
     margin-top: 20%;
@@ -202,8 +206,8 @@ h1{
   margin-bottom: 35rem;
 }
 .img-somos-3{
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 250;
 }
 .conctac{
   display:block;
