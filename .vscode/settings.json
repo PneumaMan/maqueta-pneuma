@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/62176139-7e3b-4678-a0d7-7951b5327188/microsoft.web/sites/subscriptions/62176139-7e3b-4678-a0d7-7951b5327188/resourceGroups/PneumaResources/providers/Microsoft.Web/sites/pneuma-consulting",
+    "appService.deploySubpath": "."
+}
