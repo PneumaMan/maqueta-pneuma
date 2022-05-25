@@ -123,6 +123,10 @@ h1{
   text-align: justify!important;
   margin: 10px;
 }
+.productos {
+  margin: auto;
+  padding: 10px 20px 60px;
+}
 
 .parrafo-1{
   font-size: 18px;
