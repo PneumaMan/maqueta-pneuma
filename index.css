@@ -134,7 +134,7 @@ h1{
 
 #pantalla-dividida{
   width: 100%;
-  height: 70vh;
+  height: 30vh;
   display: grid;
 }
 
@@ -204,6 +204,8 @@ h1{
 .somos{
   margin-top: 450px;
   margin-bottom: 35rem;
+  width: 100%;
+  height: 85vh;
 }
 .img-somos-3{
   width: 330px;
