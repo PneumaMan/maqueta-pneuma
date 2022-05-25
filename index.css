@@ -207,9 +207,9 @@ h1{
 }
 .somos{
   margin-top: 450px;
-  margin-bottom: 35rem;
+  margin-bottom: 28rem;
   width: 100%;
-  height: 85vh;
+  height: auto;
 }
 .img-somos-3{
   width: 330px;
