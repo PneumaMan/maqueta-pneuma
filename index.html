@@ -20,9 +20,16 @@
     <link rel="stylesheet" href="html/estyle.css">
     <!-- favicon -->
     <link rel="icon" href="favicon.ico">
-
-
     <title>Pneuma consulting</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("J3igpi0xqFKWTZjyO");
+        })();
+    </script>
+
 </head>
 <style>
 
@@ -626,41 +633,31 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <form action="https://formsubmit.co/arangokaren424@gmail.com" method="POST">
+                            <form>
                                 <div class="form-group">
                                     <label>Nombre Completo</label>
-                                    <input type="text" class="form-control" name="name">
+                                    <input type="text" class="form-control" name="name" id="name">
                                 </div>
                                 <div class="form-group">
                                     <label>Telefono contacto</label>
-                                    <input type="text" class="form-control" name="phone">
+                                    <input type="text" class="form-control" name="phone" id="phone">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1">Correo electronico</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com" name="email">
+                                    <input type="email" class="form-control" 
+                                        placeholder="name@example.com" name="email" id="email_id">
                                 </div>
-                                <div class="form-group">
-                                    <label>Asunto</label>
-                                    <input type="text" class="form-control" value="Mas información" name="subject"
-                                        readonly>
-                                </div>
-
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">¿Tienes alguna pregunta adicional?</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    <textarea class="form-control" id="message" rows="3"
                                         name="comments"></textarea>
-                                </div>
-
-                                <input type="submit" value="Enviar" class="btn btn-warning"
-                                style="background-color: #D97C2B; color: white;">
-                                <input type="hidden" name="_captcha" value="false">
-                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-                                <input type="hidden" name="_next" value="https://www.pneumaconsulting.co/">
+                                </div>                                
                             </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-warning"
+                            style="background-color: #D97C2B; color: white;"  onclick="sendEmail()">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -737,6 +734,21 @@
     -->
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        function sendEmail(){
+            var params = {
+                name : document.getElementById('name').value,
+                phone : document.getElementById('phone').value,
+                email_id : document.getElementById('email_id').value,
+               message : document.getElementById('message').value,
+            }
+
+            emailjs.send("service_584t80o", "template_erhywov", params).then(function (res){
+                alert('enviado correctamente' + res.status)
+            })
+        }
+    </script>
 
     <!-- Initialize Swiper -->
     <script>
