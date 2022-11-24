@@ -657,7 +657,7 @@
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                             <button type="button" class="btn btn-warning"
-                            style="background-color: #D97C2B; color: white;"  onclick="sendEmail()">Enviar</button>
+                            style="background-color: #D97C2B; color: white;"  onclick="sendEmail()" data-dismiss="modal">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -745,7 +745,7 @@
             }
 
             emailjs.send("service_584t80o", "template_erhywov", params).then(function (res){
-                alert('enviado correctamente' + res.status)
+                console.log('enviado correctamente' + res.status)
             })
         }
     </script>
