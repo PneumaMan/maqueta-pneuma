@@ -74,7 +74,7 @@ h1{
     margin:auto
 }
 .productos{
-  margin: auto;
+  margin: 2rem 0;
   padding: 10px 20px 20px;
 }
 
@@ -728,4 +728,22 @@ color: #D97C2B;
 
 .check:checked::before{
   background: #D97C2B;
+}
+/* Tooltip */
+.label-tooltip{
+  color: white;
+}
+
+.p-tooltip{
+  /* visibility: hidden; */
+  display: none;
+}
+
+.label-tooltip:hover{
+  color: #a6b500 !important;
+}
+
+.label-tooltip:hover .p-tooltip{
+    /* visibility: visible; */
+    display: block !important;
 }
